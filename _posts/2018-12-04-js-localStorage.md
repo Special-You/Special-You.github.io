@@ -1,9 +1,10 @@
 ---
 title: localStorage、sessionStorage、Cookie的区别及用法
 date: 2018-12-04 21:58:04
-link: 
-categories:
-- js
+tags: 
+    - js
+    - html
+categories: js
 ---
 
 ## 前言
