@@ -25,7 +25,7 @@ categories: css
 
 ##### 思路：为两侧设置相对定位（`position: relative`），同时父元素两侧留空白`padding`
 
-```
+```ruby
 .container {
   color: #fff;
  
@@ -67,7 +67,7 @@ categories: css
 
 #### HTML代码
 
-```
+```ruby
 <body>
   <div class="container">
     <div class="main"><div class="wrap">Main Content</div></div>
@@ -77,7 +77,7 @@ categories: css
 </body>
 ```
 #### 为main添加wrap元素
-```
+```ruby
 .container {
   color: #fff;
  
@@ -120,7 +120,7 @@ categories: css
 
 ##  多列等高布局
 
-```
+```ruby
 .left, .content, .right {
     padding-bottom: 2000px;
     margin-bottom: -2000px;
