@@ -19,7 +19,7 @@ npm install -S xlsx //电子表格格式的解析器
 npm install -D script-loader //将js挂在在全局下
 
 ```   
-### 在js和Export2Excel.js里更改
+### Export2Excel.js里更改
 ```
 require('script-loader!file-saver');
 require('script-loader!../../assets/js/Blob'); //主要改这个，路径为到导出的页面位置与Blob.js的位置
@@ -31,7 +31,7 @@ require('script-loader!xlsx/dist/xlsx.core.min');
 import Blob from './assets/js/Blob.js'
 import Export2Excel from './assets/js/Export2Excel'
 ```  
-## 在要做导出操作的页面
+### 在要做导出操作的页面
 ```
 formatJson(filterVal, jsonData) {
                 return jsonData.map(v => filterVal.map(j => v[j]))
@@ -55,6 +55,8 @@ exportMeeting() {
 ```
  <Button type="dashed" icon="ios-cloud-upload-outline" class="add" @click="exportMeeting">导出</Button>
 ```
+
+### Blob.js和Export2Excel.js下载地址：https://github.com/Special-You/export
 
 
 
