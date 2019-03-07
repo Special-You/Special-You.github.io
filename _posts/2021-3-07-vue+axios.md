@@ -12,7 +12,7 @@ description: vue+axios接口请求
 ## 1.
 ### 在使用Vue搭建项目时，接口请求的配置：
 ### 全局安装axios：```npm install axios --save```
-### 在main.js里配置：```import {api} from './assets/js/api'  window.$api = api;```  ，也可以``` Vue.prototype.$api = api;```.使用window挂载的方式好处在于在页面使用的时候直接是api，使用挂载Vue原型的方式在页面使用的时候前面要加$,即$api
+### 在main.js里配置：```import {api} from './assets/js/api'  window.$api = api;```  ，也可以``` Vue.prototype.$api = api;```.使用window挂载的方式好处在于在页面使用的时候直接是$api，使用挂载Vue原型的方式在页面使用的时候前面要加this,即this.$api
 ### 在assets/js/api文件里：
 ```
 import axios from 'axios'
