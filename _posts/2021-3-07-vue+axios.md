@@ -22,7 +22,7 @@ const http = axios.create({
     headers :{
         'Content-Type':'application/json',
     },
-    timeout:3000
+    timeout:30000
 });
 axios.defaults.baseURL = api.baseUrl; //这句话的作用是：如果有这句话，后面写接口得时候不用拼接api.baseUrl，如果没有，后面就是api.baseUrl+''
 
@@ -57,6 +57,23 @@ http.interceptors.response.use(
 
 api.http = http;
 
+api.validata = function (data, vueobj) {
+    if (data.flag === 1) {
+        return true;
+    } else if (data.flag === 2) {
+        vueobj.$Message.error(data.message);
+        return false;
+    } else if (data.flag === 3 || data.flag === 4) {
+        vueobj.$Message.warning('请重新登录！');
+        setTimeout(function () {
+            vueobj.$router.push('login');
+        }, 1500);
+        return false;
+    } else {
+        return false;
+    }
+};
+
 //具体的接口
 api.login = '';
 
@@ -67,17 +84,18 @@ export {api}; //写在最后
 
 ## 2.解决跨域
 ### 在根目录下新建vue.config.js
+
 ```
 module.exports = {
     baseUrl:'./',
     devServer: {
         disableHostCheck: true, //  新增该配置项
         proxy: {
-            '/OA': {  // 名字不能随便起，一定要写项目的名字
-                target: 'http://47.104.77.99:8085/OA/',   //代理接口
+            '/proxy': {
+                target: '',   //代理接口
                 changeOrigin: true,
                 pathRewrite: {
-                    '^/OA': ''    //代理的路径
+                    '^/proxy': ''    //代理的路径
                 }
             }
         }
@@ -85,7 +103,8 @@ module.exports = {
     }
 };
 ```
-### 然后在api.js里```api.baseUrl = 'http://47.104.77.99:8085';  axios.defaults.baseURL = api.baseUrl;``` 就可以去掉了，接口请求就是```api.login = '/OA/emp/login'; ```
+
+### 然后在api.js里```api.baseUrl = '/proxy'; ```，接口请求就是```api.login = ''; ```
 
 
 
