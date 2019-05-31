@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b22e4a74-ef18-4009-a31b-4692a2e7c3ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2019-04-11-js.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-11-js.md" afterDir="false" />
-    </list>
+    <list default="true" id="b22e4a74-ef18-4009-a31b-4692a2e7c3ed" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,7 +18,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="633">
-                <caret line="968" column="15" lean-forward="true" selection-start-line="968" selection-start-column="15" selection-end-line="968" selection-end-column="15" />
+                <caret line="968" column="4" lean-forward="true" selection-start-line="968" selection-start-column="4" selection-end-line="968" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -41,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="192" />
     <option name="y" value="88" />
     <option name="width" value="1432" />
@@ -58,11 +56,6 @@
             <path>
               <item name="Special-You.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Special-You.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Special-You.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Special-You.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -108,7 +101,7 @@
       <updated>1544061816517</updated>
       <workItem from="1544061817943" duration="201000" />
       <workItem from="1547643625567" duration="862000" />
-      <workItem from="1559293705701" duration="953000" />
+      <workItem from="1559293705701" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1547644285631</created>
@@ -135,11 +128,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2016000" />
+    <option name="totallyTimeSpent" value="3405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09038055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -274,7 +266,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="633">
-            <caret line="968" column="15" lean-forward="true" selection-start-line="968" selection-start-column="15" selection-end-line="968" selection-end-column="15" />
+            <caret line="968" column="4" lean-forward="true" selection-start-line="968" selection-start-column="4" selection-end-line="968" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
