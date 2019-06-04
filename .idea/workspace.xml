@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-04-11-js.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="633">
-                <caret line="968" column="4" lean-forward="true" selection-start-line="968" selection-start-column="4" selection-end-line="968" selection-end-column="4" />
+              <first_editor relative-caret-position="634">
+                <caret line="968" column="4" selection-start-line="968" selection-start-column="4" selection-end-line="968" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -67,7 +67,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../try" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -102,6 +102,7 @@
       <workItem from="1544061817943" duration="201000" />
       <workItem from="1547643625567" duration="862000" />
       <workItem from="1559293705701" duration="2491000" />
+      <workItem from="1559523934518" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1547644285631</created>
@@ -128,7 +129,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3554000" />
+    <option name="totallyTimeSpent" value="3579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -265,8 +266,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-04-11-js.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="633">
-            <caret line="968" column="4" lean-forward="true" selection-start-line="968" selection-start-column="4" selection-end-line="968" selection-end-column="4" />
+          <first_editor relative-caret-position="634">
+            <caret line="968" column="4" selection-start-line="968" selection-start-column="4" selection-end-line="968" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
