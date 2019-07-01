@@ -106,6 +106,20 @@ module.exports = {
 
 ### 然后在api.js里```api.baseUrl = '/proxy'; ```，接口请求就是```api.login = ''; ```
 
+## 3.安装区别
+
++ `npm install axios`
+   + 安装到项目目录下，
+
++ `npm install -g axios`
+   + 安装到全局，看`prefix`位置，在哪安装到哪
+
++ `npm install -save axios`
+   + 安装在项目目录下`node_modules`，添加了依赖，在`package.json`里添加了依赖
+
++ `npm install -save-dev axios`
+   + 安装在开发环境的，生产环境不能用
+
 
 
 
