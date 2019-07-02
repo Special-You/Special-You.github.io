@@ -109,7 +109,7 @@ module.exports = {
 ## 3.安装区别
 
 + `npm install axios`
-   + 安装到项目目录下，
+   + 安装到项目目录下，不添加任何依赖文件，一般不建议这样安装
 
 + `npm install -g axios`
    + 安装到全局，看`prefix`位置，在哪安装到哪
